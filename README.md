@@ -114,11 +114,12 @@ Hapi.server({
 ## Version Compatibility
 Below are the compatible versions of Relish for Hapi and Joi.
 
-Relish Version | Hapi Version      | Joi Version
----------------|-------------------|------------
-1.x            | <= 16.6.0         | <= 10.x
-2.x            | >= 16.6.1, < 17.x | >= 11.x
-3.x            | >= 17.x           | >= 11.x
+Relish Version | Hapi Version       | Joi Version
+---------------|--------------------|------------
+1.x            | <= 16.6.0          | <= 10.x
+2.x            | >= 16.6.1, < 17.x  | >= 11.x
+3.x            | >= 17.x            | >= 11.x
+3.1            | >= 18.0.x < 18.4.x | >= 15.x < 16.x
 
 ## API Documentation
 See the [API Documentation](https://github.com/dialexa/relish/blob/v3.0.0/API.md) for reference.

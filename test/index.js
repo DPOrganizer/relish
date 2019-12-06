@@ -1,11 +1,11 @@
 'use strict'
 
-const Hapi = require('hapi')
-const Joi = require('joi')
+const Hapi = require('@hapi/hapi')
+const Joi = require('@hapi/joi')
 const Relish = require('../')
 
-const Code = require('code')
-const Lab = require('lab')
+const Code = require('@hapi/code')
+const Lab = require('@hapi/lab')
 const lab = exports.lab = Lab.script()
 const {
   after,
